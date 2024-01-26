@@ -7,10 +7,9 @@
 
 using namespace std;
 
-int main(int argc, char *argv[]) {
-  ArgumentManager am(argc, argv);
-  ifstream fin("input1.txt");   // am.get("input"));
-  ofstream fout("testoutput.txt"); //am.get("output"));
+int main() {
+  ifstream fin("input1.txt");
+  ofstream fout("output1.txt");
 
   char operation;
   int numRows, numCols;
